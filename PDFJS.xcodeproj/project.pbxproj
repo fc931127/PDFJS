@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A812951218037E200BF6C28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A812950218037E200BF6C28 /* AppDelegate.swift */; };
+		7A812953218037E200BF6C28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A812952218037E200BF6C28 /* ViewController.swift */; };
+		7A812956218037E200BF6C28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A812954218037E200BF6C28 /* Main.storyboard */; };
+		7A812958218037E300BF6C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A812957218037E300BF6C28 /* Assets.xcassets */; };
+		7A81295B218037E300BF6C28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A812959218037E300BF6C28 /* LaunchScreen.storyboard */; };
+		7A812966218037E300BF6C28 /* PDFJSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A812965218037E300BF6C28 /* PDFJSTests.swift */; };
+		7A812971218037E300BF6C28 /* PDFJSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A812970218037E300BF6C28 /* PDFJSUITests.swift */; };
+		7A812BAB2180482700BF6C28 /* minified in Resources */ = {isa = PBXBuildFile; fileRef = 7A812BAA2180482700BF6C28 /* minified */; };
+		7A812BAD2181680D00BF6C28 /* 123.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A812BAC2181680C00BF6C28 /* 123.pdf */; };
+		AE2346DA7169048FB153781D /* Pods_PDFJS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECF5ED2B732625304AD8919 /* Pods_PDFJS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A812962218037E300BF6C28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A812945218037E200BF6C28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A81294C218037E200BF6C28;
+			remoteInfo = PDFJS;
+		};
+		7A81296D218037E300BF6C28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A812945218037E200BF6C28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A81294C218037E200BF6C28;
+			remoteInfo = PDFJS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4ECF5ED2B732625304AD8919 /* Pods_PDFJS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDFJS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A81294D218037E200BF6C28 /* PDFJS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFJS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A812950218037E200BF6C28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A812952218037E200BF6C28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A812955218037E200BF6C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A812957218037E300BF6C28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A81295A218037E300BF6C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A81295C218037E300BF6C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A812961218037E300BF6C28 /* PDFJSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFJSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A812965218037E300BF6C28 /* PDFJSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFJSTests.swift; sourceTree = "<group>"; };
+		7A812967218037E300BF6C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A81296C218037E300BF6C28 /* PDFJSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFJSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A812970218037E300BF6C28 /* PDFJSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFJSUITests.swift; sourceTree = "<group>"; };
+		7A812972218037E300BF6C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A812BAA2180482700BF6C28 /* minified */ = {isa = PBXFileReference; lastKnownFileType = folder; path = minified; sourceTree = "<group>"; };
+		7A812BAC2181680C00BF6C28 /* 123.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 123.pdf; sourceTree = "<group>"; };
+		E23AF6BB0BE34F1897B37CE0 /* Pods-PDFJS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFJS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PDFJS/Pods-PDFJS.release.xcconfig"; sourceTree = "<group>"; };
+		F9A49C7E9A556C4A9E10C6DB /* Pods-PDFJS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFJS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDFJS/Pods-PDFJS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A81294A218037E200BF6C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE2346DA7169048FB153781D /* Pods_PDFJS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A81295E218037E300BF6C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A812969218037E300BF6C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CD7A57DB5B4EC53C665D44D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9A49C7E9A556C4A9E10C6DB /* Pods-PDFJS.debug.xcconfig */,
+				E23AF6BB0BE34F1897B37CE0 /* Pods-PDFJS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A812944218037E200BF6C28 = {
+			isa = PBXGroup;
+			children = (
+				7A81294F218037E200BF6C28 /* PDFJS */,
+				7A812964218037E300BF6C28 /* PDFJSTests */,
+				7A81296F218037E300BF6C28 /* PDFJSUITests */,
+				7A81294E218037E200BF6C28 /* Products */,
+				2CD7A57DB5B4EC53C665D44D /* Pods */,
+				9D7628B49723E91EF2DDDB5B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A81294E218037E200BF6C28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A81294D218037E200BF6C28 /* PDFJS.app */,
+				7A812961218037E300BF6C28 /* PDFJSTests.xctest */,
+				7A81296C218037E300BF6C28 /* PDFJSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A81294F218037E200BF6C28 /* PDFJS */ = {
+			isa = PBXGroup;
+			children = (
+				7A812950218037E200BF6C28 /* AppDelegate.swift */,
+				7A812BAC2181680C00BF6C28 /* 123.pdf */,
+				7A812952218037E200BF6C28 /* ViewController.swift */,
+				7A812BAA2180482700BF6C28 /* minified */,
+				7A812954218037E200BF6C28 /* Main.storyboard */,
+				7A812957218037E300BF6C28 /* Assets.xcassets */,
+				7A812959218037E300BF6C28 /* LaunchScreen.storyboard */,
+				7A81295C218037E300BF6C28 /* Info.plist */,
+			);
+			path = PDFJS;
+			sourceTree = "<group>";
+		};
+		7A812964218037E300BF6C28 /* PDFJSTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A812965218037E300BF6C28 /* PDFJSTests.swift */,
+				7A812967218037E300BF6C28 /* Info.plist */,
+			);
+			path = PDFJSTests;
+			sourceTree = "<group>";
+		};
+		7A81296F218037E300BF6C28 /* PDFJSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A812970218037E300BF6C28 /* PDFJSUITests.swift */,
+				7A812972218037E300BF6C28 /* Info.plist */,
+			);
+			path = PDFJSUITests;
+			sourceTree = "<group>";
+		};
+		9D7628B49723E91EF2DDDB5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ECF5ED2B732625304AD8919 /* Pods_PDFJS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A81294C218037E200BF6C28 /* PDFJS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A812975218037E300BF6C28 /* Build configuration list for PBXNativeTarget "PDFJS" */;
+			buildPhases = (
+				92B4B4F3EEBE20DB17764991 /* [CP] Check Pods Manifest.lock */,
+				7A812949218037E200BF6C28 /* Sources */,
+				7A81294A218037E200BF6C28 /* Frameworks */,
+				7A81294B218037E200BF6C28 /* Resources */,
+				C3F2DDB48A7BB97F4F50DB57 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFJS;
+			productName = PDFJS;
+			productReference = 7A81294D218037E200BF6C28 /* PDFJS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A812960218037E300BF6C28 /* PDFJSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A812978218037E300BF6C28 /* Build configuration list for PBXNativeTarget "PDFJSTests" */;
+			buildPhases = (
+				7A81295D218037E300BF6C28 /* Sources */,
+				7A81295E218037E300BF6C28 /* Frameworks */,
+				7A81295F218037E300BF6C28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A812963218037E300BF6C28 /* PBXTargetDependency */,
+			);
+			name = PDFJSTests;
+			productName = PDFJSTests;
+			productReference = 7A812961218037E300BF6C28 /* PDFJSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A81296B218037E300BF6C28 /* PDFJSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A81297B218037E300BF6C28 /* Build configuration list for PBXNativeTarget "PDFJSUITests" */;
+			buildPhases = (
+				7A812968218037E300BF6C28 /* Sources */,
+				7A812969218037E300BF6C28 /* Frameworks */,
+				7A81296A218037E300BF6C28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A81296E218037E300BF6C28 /* PBXTargetDependency */,
+			);
+			name = PDFJSUITests;
+			productName = PDFJSUITests;
+			productReference = 7A81296C218037E300BF6C28 /* PDFJSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A812945218037E200BF6C28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = wyzw;
+				TargetAttributes = {
+					7A81294C218037E200BF6C28 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					7A812960218037E300BF6C28 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 7A81294C218037E200BF6C28;
+					};
+					7A81296B218037E300BF6C28 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 7A81294C218037E200BF6C28;
+					};
+				};
+			};
+			buildConfigurationList = 7A812948218037E200BF6C28 /* Build configuration list for PBXProject "PDFJS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A812944218037E200BF6C28;
+			productRefGroup = 7A81294E218037E200BF6C28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A81294C218037E200BF6C28 /* PDFJS */,
+				7A812960218037E300BF6C28 /* PDFJSTests */,
+				7A81296B218037E300BF6C28 /* PDFJSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A81294B218037E200BF6C28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A81295B218037E300BF6C28 /* LaunchScreen.storyboard in Resources */,
+				7A812958218037E300BF6C28 /* Assets.xcassets in Resources */,
+				7A812BAD2181680D00BF6C28 /* 123.pdf in Resources */,
+				7A812956218037E200BF6C28 /* Main.storyboard in Resources */,
+				7A812BAB2180482700BF6C28 /* minified in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A81295F218037E300BF6C28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A81296A218037E300BF6C28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92B4B4F3EEBE20DB17764991 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PDFJS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3F2DDB48A7BB97F4F50DB57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PDFJS/Pods-PDFJS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDFJS/Pods-PDFJS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A812949218037E200BF6C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A812953218037E200BF6C28 /* ViewController.swift in Sources */,
+				7A812951218037E200BF6C28 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A81295D218037E300BF6C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A812966218037E300BF6C28 /* PDFJSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A812968218037E300BF6C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A812971218037E300BF6C28 /* PDFJSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A812963218037E300BF6C28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A81294C218037E200BF6C28 /* PDFJS */;
+			targetProxy = 7A812962218037E300BF6C28 /* PBXContainerItemProxy */;
+		};
+		7A81296E218037E300BF6C28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A81294C218037E200BF6C28 /* PDFJS */;
+			targetProxy = 7A81296D218037E300BF6C28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A812954218037E200BF6C28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A812955218037E200BF6C28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A812959218037E300BF6C28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A81295A218037E300BF6C28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A812973218037E300BF6C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A812974218037E300BF6C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A812976218037E300BF6C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9A49C7E9A556C4A9E10C6DB /* Pods-PDFJS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 373H6PX49U;
+				INFOPLIST_FILE = PDFJS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Study.wyzw.PDFJS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A812977218037E300BF6C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E23AF6BB0BE34F1897B37CE0 /* Pods-PDFJS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 373H6PX49U;
+				INFOPLIST_FILE = PDFJS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Study.wyzw.PDFJS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A812979218037E300BF6C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 373H6PX49U;
+				INFOPLIST_FILE = PDFJSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Study.wyzw.PDFJSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFJS.app/PDFJS";
+			};
+			name = Debug;
+		};
+		7A81297A218037E300BF6C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 373H6PX49U;
+				INFOPLIST_FILE = PDFJSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Study.wyzw.PDFJSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFJS.app/PDFJS";
+			};
+			name = Release;
+		};
+		7A81297C218037E300BF6C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 373H6PX49U;
+				INFOPLIST_FILE = PDFJSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Study.wyzw.PDFJSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PDFJS;
+			};
+			name = Debug;
+		};
+		7A81297D218037E300BF6C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 373H6PX49U;
+				INFOPLIST_FILE = PDFJSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Study.wyzw.PDFJSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PDFJS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A812948218037E200BF6C28 /* Build configuration list for PBXProject "PDFJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A812973218037E300BF6C28 /* Debug */,
+				7A812974218037E300BF6C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A812975218037E300BF6C28 /* Build configuration list for PBXNativeTarget "PDFJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A812976218037E300BF6C28 /* Debug */,
+				7A812977218037E300BF6C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A812978218037E300BF6C28 /* Build configuration list for PBXNativeTarget "PDFJSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A812979218037E300BF6C28 /* Debug */,
+				7A81297A218037E300BF6C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A81297B218037E300BF6C28 /* Build configuration list for PBXNativeTarget "PDFJSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A81297C218037E300BF6C28 /* Debug */,
+				7A81297D218037E300BF6C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A812945218037E200BF6C28 /* Project object */;
+}
